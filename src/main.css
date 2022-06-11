@@ -1,0 +1,28 @@
+.Main {
+  text-align: center;
+}
+
+.Main-header {
+  background-color: #878d99;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+.button {
+  padding: 10px;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #ffffff; /* Green */
+  color: rgb(0, 0, 0);
+}
